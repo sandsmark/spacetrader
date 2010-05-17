@@ -5,12 +5,20 @@ class StarSystem
 {
 public:
     StarSystem();
-    struct Politics {
 
+    enum TradeItems {
+        WATER,
+        FURS,
+        FOOD,
+        ORE,
+        GAMES,
+        FIREARMS,
+        MEDICINE,
+        MACHINERY,
+        NARCOTICS,
+        ROBOTS,
+        MAXTRADEITEM
     };
-
-private:
-
 };
 
 #endif // STARSYSTEM_H
